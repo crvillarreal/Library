@@ -1,0 +1,52 @@
+
+.body{
+    display: flex;
+    justify-content: center;
+    height: 115%;
+    align-items: center;
+    background-color: rgb(193, 219, 219);
+}
+
+
+
+.login{
+  
+    width: 150%;
+    max-width: 300px;
+    max-height: 800px;
+    text-align: center;
+}
+
+ .ancho{
+    width: 80%;
+  
+ }
+
+.button{
+width: 70%;
+height: 50px;
+}
+
+.sen {
+   
+    top: -10px;
+    left: -10px;
+    max-height: 140px;
+     position: absolute;
+      
+}
+
+footer {
+    
+    text-align: center;
+    padding: 3px;
+    background-color: #EBF4F7;
+    color: rgb(37, 34, 34);
+    font-family: 'Times New Roman';
+    
+  }
+
+  .spinner{
+margin: 0 auto;
+  }
+  

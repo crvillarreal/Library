@@ -1,0 +1,40 @@
+
+<div class="body">
+  <img  class="sen"  src="./assets/img/Sena.png" >
+  <br>  
+<div class="login">
+  <mat-spinner *ngIf="loading" class="spinner" diameter="55"></mat-spinner>
+  <form *ngIf="!loading" [formGroup]="form" (ngSubmit)="ingresar()" >
+    <img  class="logo"  src="./assets/img/libro.png" >
+    <br>
+    <img    src="./assets/img/user.png" width="50%">
+
+<h1>Login</h1>
+
+<mat-form-field class="ancho" appearance="fill" clas>
+    <mat-label>Usuario</mat-label>
+    <input type="text" matInput autocomplete="off" formControlName="usuario">
+  </mat-form-field>
+
+  <mat-form-field class="ancho" appearance="fill">
+    <mat-label>Contraseña</mat-label>
+    <input type="password" matInput autocomplete="off" formControlName="password">
+  </mat-form-field>
+ <br> 
+ <button  type="submit" class="ancho button" mat-raised-button color="primary" [disabled]="form.invalid">Ingresar</button>
+  </form>
+    
+
+</div>
+</div>
+
+
+<footer>
+  <p>Author:
+    <br>
+  <a >Camilo Villarreal</a>
+  <br>
+  <a >ADSO 5</a>
+</p>
+ 
+</footer>
